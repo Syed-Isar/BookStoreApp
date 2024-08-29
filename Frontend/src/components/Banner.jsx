@@ -4,13 +4,13 @@ import banner from "/images/banner.png";
 function Banner() {
   return (
     <div class="max-w-screen-2xl container mx-auto md:px-15 px-4 flex flex-col md:flex-row ">
-      <div className="md:w-1/2 mt-12 md:mt-36">
+      <div className="md:w-1/2 mt-40">
         <div className="space-y-12">
           <h1 className="text-5xl font-bold">
             Hello Welcome here to learn something{" "}
             <span className=" text-pink-500">new everyday!!!!</span>
           </h1>
-          <p className="text-2xl">
+          <p className="text-1xl font-semibold">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
             assumenda amet suscipit, voluptate sit soluta recusandae random
             thought sky is the limit go for what do youn want from yourself
@@ -31,7 +31,7 @@ function Banner() {
         </div>
         <button className="btn btn-secondary mt-6">Secondary</button>
       </div>
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 mt-12">
       <img src={banner} className=" md:w-5/6 md:mx-16" alt="" />
       </div>
     </div>
