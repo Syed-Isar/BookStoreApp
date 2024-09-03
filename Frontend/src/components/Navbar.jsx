@@ -34,9 +34,8 @@ function Navbar() {
   return (
     <>
       <div
-        className={`w-full md:px-15 px-4 fixed top-0 left-0 right-0 ${
-          sticky ? "sticky-navbar bg-base-200 duration-300 transition-all" : ""
-        }`}
+        className={`w-full md:px-15 px-4 fixed top-0 left-0 right-0 ${sticky ? "bg-base-200 duration-300 transition-all" : ""
+          }`}
       >
         <div className="navbar ">
           <div className="navbar-start">
@@ -78,7 +77,7 @@ function Navbar() {
               <label className=" p-2 border flex items-center gap-2">
                 <input
                   type="text"
-                  className="grow outline-none "
+                  className={`grow outline-none ${ sticky? "bg-base-200 duration-300":""}`}
                   placeholder="Search"
                 />
                 <svg
